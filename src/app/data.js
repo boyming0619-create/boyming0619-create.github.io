@@ -90,30 +90,30 @@ export const projectsData = [
 ];
 
 export const BtnList = [
-  { label: "Home", link: "/", icon: "home", newTab: false },
-  { label: "About", link: "/about", icon: "about", newTab: false },
-  { label: "Projects", link: "/projects", icon: "projects", newTab: false },
-  { label: "Contact", link: "/contact", icon: "contact", newTab: false },
+  { label: "主页", link: "/", icon: "home", newTab: false },
+  { label: "关于", link: "/about", icon: "about", newTab: false },
+  { label: "更多项目", link: "/projects", icon: "projects", newTab: false },
+  { label: "联系方式", link: "/contact", icon: "contact", newTab: false },
   {
-    label: "Github",
-    link: "https://www.github.com/codebucks27",
+    label: "Github仓库",
+    link: "https://github.com/boyming0619-create",
     icon: "github",
     newTab: true,
   },
   {
-    label: "LinkedIn",
-    link: "https://www.linkedin.com/in/codebucks",
-    icon: "linkedin",
+    label: "WeChat微信",
+    link: "微信号：lman0619",
+    icon: "WeChat",
     newTab: true,
   },
   {
     label: "X",
-    link: "https://www.x.com/code_bucks",
+    link: "https://x.com/MingBoy162346",
     icon: "twitter",
     newTab: true,
   },
   {
-    label: "Resume",
+    label: "文档",
     link: "/resume.pdf",
     icon: "resume",
     newTab: true,

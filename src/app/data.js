@@ -103,7 +103,7 @@ export const BtnList = [
   {
     label: "微信",
     link: "weixin: lman0619",
-    icon: "apple",
+    icon: "cat",
     newTab: true,
   },
   {

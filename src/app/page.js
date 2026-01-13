@@ -22,10 +22,25 @@ export default function Home() {
       />
 
       <div className="w-full h-screen">
-        <Navigation />
-        <RenderModel>
-          <Wizard />
-        </RenderModel>
+       {/* 找到 src/app/page.js 里的这段并修改 */}
+<div className="w-full h-screen">
+  <Navigation />
+  <RenderModel>
+    {/* 电脑端显示 3D 巫师 */}
+    <div className="hidden md:block h-full w-full">
+      <Wizard />
+    </div>
+    
+    {/* 手机端显示静态图片，防止崩溃 */}
+    <div className="block md:hidden flex items-center justify-center h-full w-full">
+      <img 
+        src="/background/home-background.png" // 这里可以换成你自己的 PNG 角色图
+        alt="Character" 
+        className="w-[70%] h-auto object-contain opacity-80" 
+      />
+    </div>
+  </RenderModel>
+</div>
       </div>
     </main>
   );

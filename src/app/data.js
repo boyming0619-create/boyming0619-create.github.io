@@ -95,7 +95,7 @@ export const BtnList = [
   { label: "更多惊喜", link: "/projects", icon: "projects", newTab: false },
   { label: "联系方式", link: "/contact", icon: "contact", newTab: false },
   {
-    label: "Github仓库",
+    label: "Github",
     link: "https://github.com/boyming0619-create",
     icon: "github",
     newTab: true,

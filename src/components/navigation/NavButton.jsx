@@ -79,7 +79,7 @@ const NavButton = ({
 
                 <span className="peer bg-transparent absolute top-0 left-0 w-full h-full" />
 
-                <span className="absolute hidden peer-hover:block px-2 py-1 left-full mx-2 top-1/2 -translate-y-1/2 bg-background text-foreground text-sm rounded-md shadow-lg whitespace-nowrap">
+                <span className="absolute block px-2 py-1 left-full mx-2 top-1/2 -translate-y-1/2 bg-background/20 backdrop-blur-sm text-foreground text-sm rounded-md shadow-lg whitespace-nowrap border border-accent/20">
                   {label}
                 </span>
               </span>
@@ -105,10 +105,10 @@ const NavButton = ({
                 <span className="peer bg-transparent absolute top-0 left-0 w-full h-full" />
 
                 <span
-                  className={clsx(
-                    "absolute hidden peer-hover:block px-2 py-1 left-full mx-2 top-1/2 -translate-y-1/2 bg-background text-foreground text-sm rounded-md shadow-lg whitespace-nowrap",
-                    labelDirection === "left" ? "right-full left-auto" : ""
-                  )}
+                 className={clsx(
+  "absolute block px-2 py-1 left-full mx-2 top-1/2 -translate-y-1/2 bg-background/20 backdrop-blur-sm text-foreground text-sm rounded-md shadow-lg whitespace-nowrap border border-accent/20",
+  labelDirection === "left" ? "right-full left-auto" : ""
+)}
                 >
                   {label}
                 </span>

@@ -99,24 +99,28 @@ export const BtnList = [
     link: "https://github.com/boyming0619-create",
     icon: "github",
     newTab: true,
+    labelDirection: "left", // 新增：强制文字向左显示
   },
   {
     label: "微信",
-    link: "weixin：lman0619",
+    link: "weixin: lman0619",
     icon: "bell-electric",
     newTab: true,
+    labelDirection: "left", // 新增：强制文字向左显示
   },
   {
     label: "X",
     link: "https://x.com/MingBoy162346",
     icon: "twitter",
     newTab: true,
+    labelDirection: "left", // 新增：强制文字向左显示
   },
   {
     label: "文档",
     link: "/resume.pdf",
     icon: "resume",
     newTab: true,
+    labelDirection: "left", // 新增：强制文字向左显示
   },
 ];
 

@@ -106,9 +106,10 @@ const NavButton = ({
 
                 <span
                  className={clsx(
-  "absolute block px-2 py-1 left-full mx-2 top-1/2 -translate-y-1/2 bg-background/20 backdrop-blur-sm text-foreground text-sm rounded-md shadow-lg whitespace-nowrap border border-accent/20",
-  labelDirection === "left" ? "right-full left-auto" : ""
-)}
+    "absolute block px-2 py-1 left-full mx-2 top-1/2 -translate-y-1/2 bg-background/20 backdrop-blur-sm text-foreground text-[10px] rounded-md shadow-lg whitespace-nowrap border border-accent/20",
+    // 关键：当 labelDirection 为 left 时，清除左边距，设置右对齐
+    labelDirection === "left" ? "right-full left-auto mx-0 mr-2" : ""
+  )}
                 >
                   {label}
                 </span>

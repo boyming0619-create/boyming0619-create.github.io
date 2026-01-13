@@ -60,25 +60,25 @@ const Navigation = () => {
               </motion.div>
 
               <motion.div
-                variants={container}
-                initial="hidden"
-                animate="show"
-                className="w-full px-2.5 xs:p-0 xs:w-max flex flex-col space-y-4 items-end xs:items-center justify-center relative group xs:hidden"
-              >
-                {BtnList.slice(BtnList.length / 2, BtnList.length).map(
-                  (btn) => {
-                    return (
-                      <NavButton
-                        key={btn.label}
-                        x={0}
-                        y={0}
-                        {...btn}
-                        labelDirection="left"
-                      />
-                    );
-                  }
-                )}
-              </motion.div>
+  variants={container}
+  initial="hidden"
+  animate="show"
+  // 【修改处】将 items-end 改为 items-center，并增加右边距 pr-10
+  className="w-full px-2.5 xs:p-0 xs:w-max flex flex-col space-y-4 items-center xs:items-center justify-center relative group xs:hidden pr-10"
+>
+  {BtnList.slice(BtnList.length / 2, BtnList.length).map((btn) => {
+    return (
+      <NavButton
+        key={btn.label}
+        x={0}
+        y={0}
+        {...btn}
+        // 【建议】如果你想让文字显示在图标右边，请删除下面这一行
+        // labelDirection="left" 
+      />
+    );
+  })}
+</motion.div>
             </>
           );
         }}

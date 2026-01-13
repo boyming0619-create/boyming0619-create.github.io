@@ -90,9 +90,9 @@ export const projectsData = [
 ];
 
 export const BtnList = [
-  { label: "主页", link: "/", icon: "home", newTab: false },
-  { label: "关于", link: "/about", icon: "about", newTab: false },
-  { label: "更多项目", link: "/projects", icon: "projects", newTab: false },
+  { label: "Moose主页", link: "/", icon: "home", newTab: false },
+  { label: "身世背景", link: "/about", icon: "about", newTab: false },
+  { label: "更多惊喜", link: "/projects", icon: "projects", newTab: false },
   { label: "联系方式", link: "/contact", icon: "contact", newTab: false },
   {
     label: "Github仓库",
@@ -103,7 +103,7 @@ export const BtnList = [
   {
     label: "微信",
     link: "weixin：lman0619",
-    icon: "apple",
+    icon: "bell-electric",
     newTab: true,
   },
   {

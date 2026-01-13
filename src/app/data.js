@@ -101,9 +101,9 @@ export const BtnList = [
     newTab: true,
   },
   {
-    label: "WeChat微信",
+    label: "微信",
     link: "微信号：lman0619",
-    icon: "WeChat",
+    icon: "apple",
     newTab: true,
   },
   {
